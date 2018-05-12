@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="13771" started-at="2018-05-12T10:38:07Z" finished-at="2018-05-12T10:38:20Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="13771" started-at="2018-05-12T10:38:07Z" finished-at="2018-05-12T10:38:20Z">
+      <class name="Wikipedia.TestCases.Wiki_RenderTest">
+        <test-method status="PASS" signature="renderTestMeth()[pri:0, instance:Wikipedia.TestCases.Wiki_RenderTest@13fee20c]" name="renderTestMeth" duration-ms="943" started-at="2018-05-12T16:08:19Z" finished-at="2018-05-12T16:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renderTestMeth -->
+      </class> <!-- Wikipedia.TestCases.Wiki_RenderTest -->
+      <class name="Wikipedia.TestCases.Wiki_NegativeTest">
+        <test-method status="PASS" signature="wiki_NegTestMeth()[pri:0, instance:Wikipedia.TestCases.Wiki_NegativeTest@64616ca2]" name="wiki_NegTestMeth" duration-ms="4661" started-at="2018-05-12T16:08:15Z" finished-at="2018-05-12T16:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wiki_NegTestMeth -->
+      </class> <!-- Wikipedia.TestCases.Wiki_NegativeTest -->
+      <class name="Wikipedia.TestCases.Wiki_PositiveTest">
+        <test-method status="PASS" signature="assignment_Meth()[pri:0, instance:Wikipedia.TestCases.Wiki_PositiveTest@26ba2a48]" name="assignment_Meth" duration-ms="8145" started-at="2018-05-12T16:08:07Z" finished-at="2018-05-12T16:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment_Meth -->
+      </class> <!-- Wikipedia.TestCases.Wiki_PositiveTest -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
